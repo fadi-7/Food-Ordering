@@ -1,0 +1,44 @@
+name: food_orders_proj
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.3 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^1.0.3
+  flutter_spinkit: ^5.1.0
+  pin_code_fields: ^7.4.0
+  bot_toast: ^4.0.3
+  dots_indicator: ^2.1.0
+  shared_preferences: ^2.1.0
+  http: ^0.13.6
+  dartz: ^0.10.1
+  cached_network_image: ^3.2.3
+  image_picker: ^0.8.7+5
+  file_picker: ^5.2.7
+  url_launcher: ^6.1.11
+  lottie: ^2.3.2
+  mime: ^1.0.4
+  get: ^4.6.5
+  get_it: ^7.6.0
+  connectivity_plus: ^3.0.2
+  provider: 6.0.5
+  location: ^5.0.0
+  geocoding: ^2.1.0
+  google_maps_flutter: ^2.3.0
+  firebase_core: ^2.13.0
+  firebase_messaging: ^14.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  #flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
